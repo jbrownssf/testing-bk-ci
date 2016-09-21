@@ -1,0 +1,38 @@
+{
+  "name": "TestResults",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userID": {
+      "type": "string",
+      "required": true
+    },
+    "competing": {
+      "type": "number",
+      "required": true
+    },
+    "compromising": {
+      "type": "number",
+      "required": true
+    },
+    "avoiding": {
+      "type": "number",
+      "required": true
+    },
+    "accommodating": {
+      "type": "number",
+      "required": true
+    },
+    "createDate": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
